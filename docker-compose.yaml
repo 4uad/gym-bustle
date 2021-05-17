@@ -1,5 +1,5 @@
 services:
-    scraper:
-      build: .
-      volumes:
-        - ./output:/home/scraper/output
+  scraper:
+    build: .
+    volumes:
+      - ./output:/home/scraper/output
